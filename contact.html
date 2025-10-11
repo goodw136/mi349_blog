@@ -16,5 +16,41 @@
     </nav>
 </header>
 <body>
-    <p></p>
+    <h2>Contact Form</h2>
+    <form method = "get">
+        <div>
+            <label>
+                Name:
+                <input type = "text" name = "contact-name" autocomplete = "name" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                Email Address:
+                <input type = "email" name = "contact-email" autocomplete = "email" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                Reason for Contact:
+                <select name = "reason">
+                    <option value = "">Please select a reason.</option>
+                    <option value = "hello">Saying hi!</option>
+                    <option value = "contractor">Looking for a contractor.</option>
+                    <option value = "interview">Interested in an interview.</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                Comments, Questions, or Concerns:
+                <input type = "text" name = "open-comment">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type = "submit" name = "submit-request" value = "Submit">
+            </label>
+        </div>
+    </form>
 </body>
