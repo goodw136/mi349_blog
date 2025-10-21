@@ -54,9 +54,14 @@ header ul {
     padding-bottom: 1%;
 }
 
-section {
-    margin:0;
+div {
+    margin: 0;
     padding: 2%;
+}
+
+section {
+    margin: 0;
+    padding: 5%;
 }
 
 .blogPosts {
@@ -112,4 +117,8 @@ tbody th {
 
 form div {
     padding:5px;
+}
+
+input[type = "text"] {
+    color:#685338;
 }
